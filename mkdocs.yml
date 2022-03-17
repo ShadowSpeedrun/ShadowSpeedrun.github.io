@@ -5,6 +5,8 @@ repo_url: https://github.com/ShadowSpeedrun/ShadowSpeedrun.github.io
 edit_uri: ""
 nav:
     - Home: index.md
+    - Getting Started:
+        - Categories Explained: GettingStarted/Categories.md
     - Levels:
         - Westopolis: Levels/Westopolis.md
         - Digital Circuit: Levels/DigitalCircuit.md
@@ -40,7 +42,8 @@ nav:
     - Guides:
         - Health, Points, and Other Values for Routing: Guides/ShadowPointsGuide.md
         - Shadow Practice Codes: Guides/ShadowPracticeCodesGuide.md
-
+    - About:
+        - Site Contributors: SiteContributors.md
 plugins:
     - mkdocs-video:
     - search:
