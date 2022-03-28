@@ -39,6 +39,11 @@
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring, but it has been placed in a room at the final Gun Lift Station.
+
 ## Notes of Interest
 
 ### Artifical Chaos Info

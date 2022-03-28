@@ -40,6 +40,11 @@
 <br />
 
 ## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring, but it has been placed at the end of the stage near the final checkpoint.
+
+### Other
 This is a quick and dirty list of observed differences listed in the order of appearance.
 
 Helicopter on first fall, which can be used to demage boost to the end of the fall.
@@ -58,7 +63,6 @@ No ring dash downhill to the first shadow box
 
 Section after 4th checkpoint is different.  Behind the bus that is not normally is there is a second shadow box that is also not normally there.
 
-Goal Ring has been moved the to the real end of the stage.
 <br />
 
 ## Notes of Interest

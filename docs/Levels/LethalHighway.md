@@ -54,6 +54,11 @@ The Secret Door in Lethal Highway guards two Gatling Guns, which are powerful we
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring.
+
 ## Notes of Interest
 
 <br />

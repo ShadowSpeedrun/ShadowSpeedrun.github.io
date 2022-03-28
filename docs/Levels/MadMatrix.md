@@ -42,6 +42,11 @@
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Access all 4 Terminals.
+
 ## Notes of Interest
 
 <br />

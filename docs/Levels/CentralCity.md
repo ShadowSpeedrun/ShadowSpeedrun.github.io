@@ -40,6 +40,11 @@
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Destroy the 5 Big Bombs, but the Second Bomb has been relocated the roof top area near the final bomb in the third section.
+
 ## Notes of Interest
 
 <br />

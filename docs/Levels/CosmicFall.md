@@ -47,6 +47,11 @@ The Secret Door in Cosmic Fall has a switch that opens a door near the Key Door.
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring, but it has been placed at the end of the stage in the Computer Room.
+
 ## Notes of Interest
 
 <br />

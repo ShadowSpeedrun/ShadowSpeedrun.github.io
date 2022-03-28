@@ -42,6 +42,11 @@
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring.
+
 ## Notes of Interest
 
 <br />

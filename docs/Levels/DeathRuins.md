@@ -49,6 +49,11 @@ The Secret Door in Death Ruins leads to an area with a dead end. The area has ra
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring.
+
 ## Notes of Interest
 
 <br />

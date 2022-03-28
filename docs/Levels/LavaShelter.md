@@ -37,6 +37,11 @@
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring, but it has been placed the final Lava Generator would be for the Dark Mission in Story Mode.
+
 ## Notes of Interest
 
 <br />

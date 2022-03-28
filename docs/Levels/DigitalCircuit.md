@@ -39,6 +39,11 @@
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring, but it has been placed where the Dark Mission Objective would be in the Story Mode.
+
 ## Notes of Interest
 
 <br />

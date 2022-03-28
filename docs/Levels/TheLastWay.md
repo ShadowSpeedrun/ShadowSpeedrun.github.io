@@ -39,6 +39,11 @@ Note: You should never be able to use the default weapons in these boxes due alr
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring.
+
 ## Notes of Interest
 
 <br />

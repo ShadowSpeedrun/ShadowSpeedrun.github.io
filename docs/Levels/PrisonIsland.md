@@ -39,6 +39,11 @@
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring, but it has been placed at the end of the stage where the final secret disc would be.
+
 ## Notes of Interest
 
 <br />

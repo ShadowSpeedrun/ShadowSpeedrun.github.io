@@ -42,6 +42,11 @@
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Heal all of the Researchers, but they are all located where the Goal Ring to the Normal Mission is for Story Mode.
+
 ## Notes of Interest
 
 <br />

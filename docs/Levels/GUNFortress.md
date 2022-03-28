@@ -47,6 +47,11 @@ The Secret Door in GUN Fortress opens up a secret shortcut the skips the triangl
 
 <br />
 
+## Expert Mode Differences
+
+### Level Objective
+Get to the Goal Ring.
+
 ## Notes of Interest
 
 <br />
