@@ -34,3 +34,16 @@ This is legal in the current rules for IL attempts, but the runner must include 
 When playing on some consoles, the game can have a bit of time after using Chaos Control or moving very fast between sections where the enemies are not ready in memory and will need more time before appearing in the world.  When this occurs, the player can pause the game and unpause shortly after to help give the game more time to load in the missing content.  
 
 This is helpful for runs that focus on the In Game Timer, or runs where doing this helps with the real time needed to continue.
+
+## Chaos Control Route/Spline Control in Expert Mode
+The mission/partner currently selected affects which spline Shadow takes when using Chaos Control. In Expert Mode, it is still possible to set this flag in the pause menu.
+
+1. Pause the game
+2. Press "down", highlighting "restart"
+3. Press "right", setting the 'hero' flag
+You'll know it worked because the "restart" will move back up to "resume" with no noise
+4. Press "A" (or equivalent for non-GameCube, not the Start or pause/unpause button!)
+
+Doing the same but for "left" would set the 'dark' flag
+
+Further details can be found [here](ExpertCCRouteControl)
