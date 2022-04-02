@@ -5,6 +5,9 @@ Below are the list of individuals that helped contribute data / info to the site
 ## BlazinZzetti
 Site Owner, Site Editor, and pretty much anything not listed by others.
 
+## dreamsyntax
+Provided info on speedrun tricks and technical game info.
+
 ## CFood
 Provided a handful of images for the Shadow Boxes.
 
