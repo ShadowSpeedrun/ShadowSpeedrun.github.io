@@ -47,7 +47,7 @@ Since Shadow SX and the console Shadow releases will not be comparable, Shadow S
 
 ### Improved Loading Times
 
-The Dolphin Emulator has a setting to allow faster reading of the ROM data.  So instead of having to match a similar rate to the GameCube disc drive, the emulator can read and load data much faster allowing vastly shorter load times.  Normally getting from the end of Westopolis to the beginning of Glpyhic Canyon takes a little over a minute on Wii.  With this change, it now takes 48 seconds.
+The Dolphin Emulator has a setting to allow faster reading of the ROM data.  So instead of having to match a similar rate to the GameCube disc drive, the emulator can read and load data much faster allowing vastly shorter load times.  Normally getting from the end of Westopolis to the beginning of Glyphic Canyon takes a little over a minute on Wii.  With this change, it now takes 48 seconds.
 
 <br/>
 
