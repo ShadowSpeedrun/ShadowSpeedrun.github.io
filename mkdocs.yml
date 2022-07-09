@@ -45,6 +45,7 @@ nav:
         - Shadow Practice Codes: Guides/ShadowPracticeCodesGuide.md
     - Misc:
         - Game Build Differences: Misc/GameBuildDifferences.md
+    - Shadow SX: ShadowSX.md
     - About:
         - Site Contributors: SiteContributors.md
 plugins:
