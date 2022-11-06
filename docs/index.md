@@ -9,3 +9,5 @@ This website is unfinished but can still be a good resource for what is currentl
 [speedrun.com Extension Leaderboard](https://www.speedrun.com/shadow_the_hedgehog_category_extensions)
 
 [Sonic Speedrunning Community Discord](https://discord.gg/XRsRwRU)
+
+[Shadow Speedrunning Community Discord](https://discord.gg/S44prxghKD)
