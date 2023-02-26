@@ -5,7 +5,7 @@
 ## Next Stages in Story
 |Dark|Normal|Hero|
 |--|--|--|
-|[Digital Circuit](../DigitalCircuit)|[Glyphic Canyon](../GlyphicCanyon)|[Lethal Highway](../LethalHighway)|
+|[Digital Circuit](/Levels/DigitalCircuit)|[Glyphic Canyon](/Levels/GlyphicCanyon)|[Lethal Highway](/Levels/LethalHighway)|
 
 <br />
 
@@ -19,14 +19,14 @@
 ## Key Locations
 |Key 1|Key 2|Key 3|Key 4|Key 5|
 |--|--|--|--|--|
-|[ ![](../img/Westopolis/Westopolis-Key1.png) ](../img/Westopolis/Westopolis-Key1.png)|[ ![](../img/Westopolis/Westopolis-Key2.png) ](../img/Westopolis/Westopolis-Key2.png)|[ ![](../img/Westopolis/Westopolis-Key3.png) ](../img/Westopolis/Westopolis-Key3.png)|[ ![](../img/Westopolis/Westopolis-Key4.png) ](../img/Westopolis/Westopolis-Key4.png)|[ ![](../img/Westopolis/Westopolis-Key5.png) ](../img/Westopolis/Westopolis-Key5.png)|
+|[ ![](/img/Westopolis/Westopolis-Key1.png) ](/img/Westopolis/Westopolis-Key1.png)|[ ![](/img/Westopolis/Westopolis-Key2.png) ](/img/Westopolis/Westopolis-Key2.png)|[ ![](/img/Westopolis/Westopolis-Key3.png) ](/img/Westopolis/Westopolis-Key3.png)|[ ![](/img/Westopolis/Westopolis-Key4.png) ](/img/Westopolis/Westopolis-Key4.png)|[ ![](/img/Westopolis/Westopolis-Key5.png) ](/img/Westopolis/Westopolis-Key5.png)|
 
 <br />
 
 ## Shadow Boxes
 | |Box 1|
 |-|-|
-|__Location__|[ ![](../img/Westopolis/WestopolisShadowBox1.png) ](../img/Westopolis/WestopolisShadowBox1.png)|
+|__Location__|[ ![](/img/Westopolis/WestopolisShadowBox1.png) ](/img/Westopolis/WestopolisShadowBox1.png)|
 |__Default Weapon__|Flash Shot|
 
 <br />

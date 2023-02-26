@@ -5,7 +5,7 @@
 ## Next Stages in Story
 |Dark|Normal|Hero|
 |--|--|--|
-|[Sky Troops](../SkyTroops)|[Mad Matrix](../MadMatrix)|[Death Ruins](../DeathRuins)|
+|[Sky Troops](/Levels/SkyTroops)|[Mad Matrix](/Levels/MadMatrix)|[Death Ruins](/Levels/DeathRuins)|
 
 <br />
 
@@ -19,14 +19,14 @@
 ## Key Locations
 |Key 1|Key 2|Key 3|Key 4|Key 5|
 |--|--|--|--|--|
-|[ ![](../img/CircusPark/CircusPark-Key1.png) ](../img/CircusPark/CircusPark-Key1.png)|[ ![](../img/CircusPark/CircusPark-Key2.png) ](../img/CircusPark/CircusPark-Key2.png)|[ ![](../img/CircusPark/CircusPark-Key3.png) ](../img/CircusPark/CircusPark-Key3.png)|[ ![](../img/CircusPark/CircusPark-Key4.png) ](../img/CircusPark/CircusPark-Key4.png)|[ ![](../img/CircusPark/CircusPark-Key5.png) ](../img/CircusPark/CircusPark-Key5.png)|
+|[ ![](/img/CircusPark/CircusPark-Key1.png) ](/img/CircusPark/CircusPark-Key1.png)|[ ![](/img/CircusPark/CircusPark-Key2.png) ](/img/CircusPark/CircusPark-Key2.png)|[ ![](/img/CircusPark/CircusPark-Key3.png) ](/img/CircusPark/CircusPark-Key3.png)|[ ![](/img/CircusPark/CircusPark-Key4.png) ](/img/CircusPark/CircusPark-Key4.png)|[ ![](/img/CircusPark/CircusPark-Key5.png) ](/img/CircusPark/CircusPark-Key5.png)|
 
 <br />
 
 ## Shadow Boxes
 | |Box 1|Box 2|
 |-|-|-|
-|__Location__|[ ![](../img/CircusPark/CircusPark-SpecialWeaponsContainer1.png) ](../img/CircusPark/CircusPark-SpecialWeaponsContainer1.png)|[ ![](../img/CircusPark/CircusPark-SpecialWeaponsContainer2.png) ](../img/CircusPark/CircusPark-SpecialWeaponsContainer2.png)|
+|__Location__|[ ![](/img/CircusPark/CircusPark-SpecialWeaponsContainer1.png) ](/img/CircusPark/CircusPark-SpecialWeaponsContainer1.png)|[ ![](/img/CircusPark/CircusPark-SpecialWeaponsContainer2.png) ](/img/CircusPark/CircusPark-SpecialWeaponsContainer2.png)|
 |__Default Weapon__|Assault Rifle|Heavy Machine Gun|
 
 <br />

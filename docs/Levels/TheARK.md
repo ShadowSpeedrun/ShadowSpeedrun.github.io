@@ -5,10 +5,10 @@
 ## Next Stages in Story
 |Dark|Normal|
 |--|--|
-|[GUN Fortress](../GUNFortres)|[Black Comet](../BlackComet)|
+|[GUN Fortress](/Levels/GUNFortress)|[Black Comet](/Levels/BlackComet)|
 
 ### Boss After Missions
-[Blue Falcon](../Bosses/HeavyDogBlueFalcon)
+[Blue Falcon](/Bosses/HeavyDogBlueFalcon)
 
 <br />
 
@@ -22,14 +22,14 @@
 ## Key Locations
 |Key 1|Key 2|Key 3|Key 4|Key 5|
 |--|--|--|--|--|
-|[ ![](../img/TheARK/TheARK-Key1.png) ](../img/TheARK/TheARK-Key1.png)|[ ![](../img/TheARK/TheARK-Key2.png) ](../img/TheARK/TheARK-Key2.png)|[ ![](../img/TheARK/TheARK-Key3.png) ](../img/TheARK/TheARK-Key3.png)|[ ![](../img/TheARK/TheARK-Key4.png) ](../img/TheARK/TheARK-Key4.png)|[ ![](../img/TheARK/TheARK-Key5.png) ](../img/TheARK/TheARK-Key5.png)|
+|[ ![](/img/TheARK/TheARK-Key1.png) ](/img/TheARK/TheARK-Key1.png)|[ ![](/img/TheARK/TheARK-Key2.png) ](/img/TheARK/TheARK-Key2.png)|[ ![](/img/TheARK/TheARK-Key3.png) ](/img/TheARK/TheARK-Key3.png)|[ ![](/img/TheARK/TheARK-Key4.png) ](/img/TheARK/TheARK-Key4.png)|[ ![](/img/TheARK/TheARK-Key5.png) ](/img/TheARK/TheARK-Key5.png)|
 
 <br />
 
 ## Shadow Boxes
 | |Box 1|Box 2|
 |-|-|-|
-|__Location__|[ ![](../img/TheARK/TheARK-SpecialWeaponsContainer1.png) ](../img/TheARK/TheARK-SpecialWeaponsContainer1.png)|[ ![](../img/TheARK/TheARK-SpecialWeaponsContainer2.png) ](../img/TheARK/TheARK-SpecialWeaponsContainer2.png)|
+|__Location__|[ ![](/img/TheARK/TheARK-SpecialWeaponsContainer1.png) ](/img/TheARK/TheARK-SpecialWeaponsContainer1.png)|[ ![](/img/TheARK/TheARK-SpecialWeaponsContainer2.png) ](/img/TheARK/TheARK-SpecialWeaponsContainer2.png)|
 |__Default Weapon__|Heavy Machine Gun|Empty(Likely caused by gravity glitch)|
 
 <br />

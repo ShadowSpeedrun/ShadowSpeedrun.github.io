@@ -5,7 +5,7 @@
 ## Next Stages in Story
 |Normal|Hero|
 |--|--|
-|[Cosmic Fall](../CosmicFall)|[Final Haunt](../FinalHaunt)|
+|[Cosmic Fall](/Levels/CosmicFall)|[Final Haunt](/Levels/FinalHaunt)|
 
 <br />
 
@@ -19,14 +19,14 @@
 ## Key Locations
 |Key 1|Key 2|Key 3|Key 4|Key 5|
 |--|--|--|--|--|
-|[ ![](../img/LostImpact/LostImpact-Key1.png) ](../img/LostImpact/LostImpact-Key1.png)|[ ![](../img/LostImpact/LostImpact-Key2.png) ](../img/LostImpact/LostImpact-Key2.png)|[ ![](../img/LostImpact/LostImpact-Key3.png) ](../img/LostImpact/LostImpact-Key3.png)|[ ![](../img/LostImpact/LostImpact-Key4.png) ](../img/LostImpact/LostImpact-Key4.png)|[ ![](../img/LostImpact/LostImpact-Key5.png) ](../img/LostImpact/LostImpact-Key5.png)|
+|[ ![](/img/LostImpact/LostImpact-Key1.png) ](/img/LostImpact/LostImpact-Key1.png)|[ ![](/img/LostImpact/LostImpact-Key2.png) ](/img/LostImpact/LostImpact-Key2.png)|[ ![](/img/LostImpact/LostImpact-Key3.png) ](/img/LostImpact/LostImpact-Key3.png)|[ ![](/img/LostImpact/LostImpact-Key4.png) ](/img/LostImpact/LostImpact-Key4.png)|[ ![](/img/LostImpact/LostImpact-Key5.png) ](/img/LostImpact/LostImpact-Key5.png)|
 
 <br />
 
 ## Shadow Boxes
 | |Box 1|
 |-|-|
-|__Location__|[ ![](../img/LostImpact/LostImpact-SpecialWeaponsContainer1.png) ](../img/LostImpact/LostImpact-SpecialWeaponsContainer1.png)|
+|__Location__|[ ![](/img/LostImpact/LostImpact-SpecialWeaponsContainer1.png) ](/img/LostImpact/LostImpact-SpecialWeaponsContainer1.png)|
 |__Default Weapon__|SMG|
 
 <br />
