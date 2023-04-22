@@ -14,6 +14,9 @@
 |Mission|A Rank|B Rank|C Rank|D Rank|
 |--|--|--|--|--|
 |Hero|33000|28000|20000|10000|
+|Normal|20000|18000|12000|8000|
+|Dark|20000|18000|12000|8000|
+
 
 ## Level Layout
 ```
