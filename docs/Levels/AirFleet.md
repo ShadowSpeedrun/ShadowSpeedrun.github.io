@@ -9,6 +9,12 @@
 
 <br />
 
+## Rank Point Requirements
+
+|Mission|A Rank|B Rank|C Rank|D Rank|
+|--|--|--|--|--|
+|Hero|33000|28000|20000|10000|
+
 ## Level Layout
 ```
 <Insert Level Map Here>
