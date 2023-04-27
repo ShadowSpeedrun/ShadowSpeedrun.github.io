@@ -29,8 +29,8 @@
 ## Secret Doors
 <!--Working space is 830 pixels. Need some extra pixels for spacing.-->
 <p>
-	<a href="..//img/LethalHighway/LethalHighway-SecretDoor.png"><img src="..//img/LethalHighway/LethalHighway-SecretDoor.png" width="410" /></a>
-	<a href="..//img/LethalHighway/LethalHighway-SecretDoorItems.png"><img src="..//img/LethalHighway/LethalHighway-SecretDoorItems.png" width="410" /></a>
+	<a href="../../img/LethalHighway/LethalHighway-SecretDoor.png"><img src="../../img/LethalHighway/LethalHighway-SecretDoor.png" width="410" /></a>
+	<a href="../../img/LethalHighway/LethalHighway-SecretDoorItems.png"><img src="../../img/LethalHighway/LethalHighway-SecretDoorItems.png" width="410" /></a>
 </p>
 
 The Secret Door in Lethal Highway guards two Gatling Guns, which are powerful weapons at this point in the level (Excluding Shadow Box).
