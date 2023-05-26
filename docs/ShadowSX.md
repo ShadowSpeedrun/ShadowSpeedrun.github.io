@@ -14,15 +14,11 @@
 ## What is Shadow SX
 Shadow SX is a ROM hack of the ENG NTSC version of Shadow the Hedgehog that aims to provide quality of life changes for improving the speedrunning experience without any major changes to the core gameplay experience. 
 
-As of BETA V2, Shadow SX is playable on GameCubes or Wiis with Homebrew or on computers using Dolpin Emulator.
+Shadow SX is playable on GameCubes, on Wiis with Homebrew, or on computers using Dolpin Emulator.
 
 Although this website started as a means of consolidating and proving data for the console releases. Everything you see on this site should apply to both the console versions and Shadow SX.
 
 Due to changes to the game code, Shadow SX will be considered it's own thing seperate from the original console releases.  Seperate Leaderboards for any of the categories or levels will be provided at a future time.
-
-This current release is considered a BETA and is meant to get a feel for how everyone is able to setup and play this version.  There will still be some changes to the emulator and ROM hack code as we move into a definitive version.
-
-If you record and upload any footage of Shadow SX, please be sure to properly label the video as the SX version including that it's a BETA to help prevent confusion for future viewers / runners of the game.
 
 <br/>
 
@@ -96,12 +92,5 @@ Different Textures are available that allow swaping out the default GameCube but
 #### Modern Controls for UI
 When using GameCube controls, no changes are needed.  But if you are using a PlayStation or Xbox style controller, turning this option on will allow you to control the game just as you would on the Xbox or PS2 versions of the game.
 
-<br/>
-
-## Planned Roadmap for future changes
-
-### BETA
-The main plan for BETA is to improve the setup and managment process. As of BETA V2, getting set up and going is pretty quick and easy with the ROM patching methods provided. Getting the recommended Dolphin setup is still a bit of a hassle, but the provided instructions should help guide anyone through the process. There is currently a bug with Dolphin that causes a hitch after playing for a while. I would like to see this fixed before preparing a specialized build to simplify the setup process.
-
-### Full Release
-Once everything is ironed out and finished in BETA, a proper release will be made.  At this point a leaderboard should be available to track runs of the game.
+#### Custom Shadow Colors
+Use the color adjuster tool in the Shadow SX Launcher to customize the color of Shadow for a more personalized experience.
