@@ -96,9 +96,3 @@ When using GameCube controls, no changes are needed.  But if you are using a Pla
 
 #### Custom Shadow Colors
 Use the color adjuster tool in the Shadow SX Launcher to customize the color of Shadow for a more personalized experience.
-
----
-
-That is all for now.  Let me know if there are any issues or changes you would like to see by contacting me (BlazinZzetti) on Discord.
-
-Thanks for playing and I hope you enjoy!
