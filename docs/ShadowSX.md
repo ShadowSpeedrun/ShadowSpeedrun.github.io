@@ -50,7 +50,7 @@ The following changes were made to not only improve the quality of life for IL a
 When you first encounter a partner character, there's a quick intro that plays to introduce them.  This gets annoying after many attempts so the intros have been turned off.  This also allows the player to focused more on movement for the sections they would normally be stopped in, just like if they were doing multiple IL attempts.
 
 #### Infinite Lives for Select Mode
-Kinda self explanitory, no longer needing to worry about lives makes IL a lot more bareable. This only applies to the Select Mode. The Story Style game modes work the same as the original. To account for the handicap that is available in the Egg Dealer fights, holding D-Pad Up while selecting one of the Egg Dealer levels will enable a mode where you will start with infinite 0 lives to allow the 
+Kinda self explanitory, no longer needing to worry about lives makes IL a lot more bareable. This only applies to the Select Mode. The Story Style game modes work the same as the original. To account for the handicap that is available in the Egg Dealer fights, holding D-Pad Up while selecting one of the Egg Dealer levels will enable a mode where you will start with infinite 0 lives.
 
 #### Secret Doors Open Faster.
 If you have all 5 keys for a level, the Secret Door will now automatically open, just like it would if you had opened it normally, and reentered the area after a death. This was how one could speed up IL in the original game. Now it's available to everyone without needing to interact with it first. This also allows for Story Mode and ILs to use similar strategies.
