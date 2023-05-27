@@ -55,6 +55,9 @@ Kinda self explanitory, no longer needing to worry about lives makes IL a lot mo
 #### Secret Doors Open Faster.
 If you have all 5 keys for a level, the Secret Door will now automatically open, just like it would if you had opened it normally, and reentered the area after a death. This was how one could speed up IL in the original game. Now it's available to everyone without needing to interact with it first. This also allows for Story Mode and ILs to use similar strategies.
 
+#### Expert Mode from Select Mode
+Holding D-Pad Up while entering a level will place you in the Expert Mode Varient of the level for easier access and practice of those level layouts.
+
 <br/>
 
 ### Emulator Changes
