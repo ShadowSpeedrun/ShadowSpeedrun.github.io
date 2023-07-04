@@ -1,5 +1,7 @@
 ![](/img/S-SX-Logo.png)
 
+![type:video](https://www.youtube.com/embed/RmGp4Puwnzk)
+
 ## Download on GitHub
 
 #### [Click here to visit the GitHub Release page](https://github.com/ShadowSpeedrun/ShadowSX/releases)
