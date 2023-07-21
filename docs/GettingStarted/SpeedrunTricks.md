@@ -1,5 +1,8 @@
 # Speedrun Tricks Explained
 
+## Faster Rank Screen / Stage Result Screen
+After completing a stage, if you press the Start button shortly after the letter rank is on screen you will begin the fadescreen earlier. This is to skip the "Hmph, perfect" line that plays when getting an A rank. Note that even if you get a rank below an A, the waiting time without pressing Start is the same.
+
 ## Chaos Control Glitch (CCG)
 In the older builds of the game, there as a bug in the code that allowed an action to be performed after pressing the button to enter the Checkpoint Menu.  One of those actions happens to be acting a Chaos Power Dark or Hero.  For Dark it's not that useful, but for Hero it is VERY useful.  While the checkpoint menu is up, the game timers are frozen as being in a checkpoint menu is essentially a soft pausing of the game. Because of this, once the power of Chaos Control starts while in a checkpoint menu, the player will begin to move in the world, and the timer / chaos power meter remain frozen, allowing for infinite Chaos Control.  This is pretty broken for some stages, but others have points that prevent Chaos Control from continuing, and will also stop this glitch.
 
@@ -47,3 +50,20 @@ You'll know it worked because the "restart" will move back up to "resume" with n
 Doing the same but for "left" would set the 'dark' flag
 
 Further details can be found [here](ExpertCCRouteControl)
+
+## Hurt Animation Cancel
+If holding a weapon when damaged and Shadow is on the ground, pressing Y cancels the animation into the weapon drop animation.
+
+## Maximum Spindash Time
+The maximum spindash distance can be achieved with exactly 1.00 seconds, with a sharp decay rate even at 0.75 seconds.
+```
+2.00 seconds = 86.5 game units
+1.00 seconds =  86.5 game units
+0.98 seconds = 85 game units
+0.75 seconds = 64 game units
+0.5 seconds = 39 game units
+```
+
+## Artificial Chaos Point Duplication
+The amount of points you dupe are based on how many individual separate chibis are destroyed in the same frame when the health of the artifical chaos reaches 0.
+It is possible to duplication points by jumping or using the satellite laser, though using the omochao gun can provide huge multipliers not possible by jumping / satellite laser.
