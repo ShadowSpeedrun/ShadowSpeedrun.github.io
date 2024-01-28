@@ -459,6 +459,11 @@ Bosses
 		<td style="background-color:#9fc5e8">Hero</td>
 		<td>140</td>
 	</tr>
+	<tr>
+		<td>Devil Doom</td>
+		<td style="background-color:#9fc5e8">Dark</td>
+		<td>200</td>
+	</tr>
 </table>
 
 These tables show how much damage each attack / weapon deals to the enemies / objects.
@@ -644,6 +649,22 @@ Weapons
 	<tr>
 		<td>Shadow Rifle</td>
 		<td>32</td>
+	</tr>
+	<tr>
+		<td>Chaos Spear (Instant)</td>
+		<td>6</td>
+	</tr>
+	<tr>
+		<td>Chaos Spear (Charged)</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>Chaos Control (Travel Hit/Damage)</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td>Chaos Blast</td>
+		<td>12</td>
 	</tr>
 	<tr>
 		<td>Flame Shield</td>
