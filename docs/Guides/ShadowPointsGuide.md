@@ -66,7 +66,7 @@ Black Arms
 		<td>Black Hawk</td>
 		<td style="background-color:#e06666">Dark</td>
 		<td>6</td>
-		<td style="background-color:#9fc5e8">400</td>
+		<td style="background-color:#9fc5e8">200</td>
 		<td style="background-color:#9fc5e8">2000</td>
 		<td style="background-color:#e06666">200</td>
 		<td style="background-color:#e06666">3000</td>
