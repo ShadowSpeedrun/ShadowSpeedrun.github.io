@@ -11,7 +11,11 @@ However, no other chaos spear states exist in between. It turns out every ms spe
 
 The chaos spear charging blue/yellow particle effect (before the blue circle) will do 15 damage and takes ~1.5s to reach this state - which is half the time of a full spear for only 5dmg less.
 
-Unfortunately, to achieve an optimal time of <=0:50 (collecting no rings) requires 10 fully charged 20s hits, and due to the boss invulnerability period the window to achieve this time is extremely precise.
+Unfortunately, to achieve an optimal time of <=0:50 (collecting no rings) requires 10 fully charged 20 damage hits, and due to the boss invulnerability period the window to achieve this time is extremely precise.
+
+A time of 0:49.82 has been proven possible via TAS:
+
+![type:video](https://youtu.be/xKRMSRzaXDg?t=960)
 
 ### Player Spawn Location
 Due to an oversight in the Super Shadow Fly state, the player's position is not reset when you perform a restart. You can utilize this to change your starting position.
