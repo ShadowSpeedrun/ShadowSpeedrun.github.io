@@ -15,7 +15,7 @@ Unfortunately, to achieve an optimal time of <=0:50 (collecting no rings) requir
 
 A time of 0:49.82 has been proven possible via TAS:
 
-![type:video](https://youtu.be/xKRMSRzaXDg?t=960)
+![type:video](https://www.youtube.com/embed/xKRMSRzaXDg?t=960)
 
 ### Player Spawn Location
 Due to an oversight in the Super Shadow Fly state, the player's position is not reset when you perform a restart. You can utilize this to change your starting position.
