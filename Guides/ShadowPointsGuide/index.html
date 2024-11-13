@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://shadowspeedrun.com/Guides/ShadowPointsGuide/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Health, Points, and Other Values for Routing - Shadow the Hedgehog Speedrunning</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/darcula.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Shadow the Hedgehog Speedrunning</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://beta.shadowspeedrun.com" class="nav-link">Leaderboards</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Getting Started</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../GettingStarted/Categories/" class="dropdown-item">Categories Explained</a>
+</li>
+                                    
+<li>
+    <a href="../../GettingStarted/SpeedrunTricks/" class="dropdown-item">Speedrun Tricks Explained</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Levels</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Levels/Westopolis/" class="dropdown-item">Westopolis</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/DigitalCircuit/" class="dropdown-item">Digital Circuit</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/GlyphicCanyon/" class="dropdown-item">Glyphic Canyon</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/LethalHighway/" class="dropdown-item">Lethal Highway</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/CrypticCastle/" class="dropdown-item">Cryptic Castle</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/PrisonIsland/" class="dropdown-item">Prison Island</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/CircusPark/" class="dropdown-item">Circus Park</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/CentralCity/" class="dropdown-item">Central City</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/TheDoom/" class="dropdown-item">The Doom</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/SkyTroops/" class="dropdown-item">Sky Troops</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/MadMatrix/" class="dropdown-item">Mad Matrix</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/DeathRuins/" class="dropdown-item">Death Ruins</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/TheARK/" class="dropdown-item">The ARK</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/AirFleet/" class="dropdown-item">Air Fleet</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/IronJungle/" class="dropdown-item">Iron Jungle</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/SpaceGadget/" class="dropdown-item">Space Gadget</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/LostImpact/" class="dropdown-item">Lost Impact</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/GUNFortress/" class="dropdown-item">GUN Fortress</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/BlackComet/" class="dropdown-item">Black Comet</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/LavaShelter/" class="dropdown-item">Lava Shelter</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/CosmicFall/" class="dropdown-item">Cosmic Fall</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/FinalHaunt/" class="dropdown-item">Final Haunt</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/TheLastWay/" class="dropdown-item">The Last Way</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bosses</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Bosses/BlackBull/" class="dropdown-item">Black Bull</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/EggBreaker/" class="dropdown-item">Egg Breaker</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/HeavyDogBlueFalcon/" class="dropdown-item">Heavy Dog / Blue Falcon</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/BlackDoom/" class="dropdown-item">Black Doom</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/SonicAndDiablon/" class="dropdown-item">Sonic and Diablon</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/EggDealer/" class="dropdown-item">Egg Dealer</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/DevilDoom/" class="dropdown-item">Devil Doom</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Guides</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Health, Points, and Other Values for Routing</a>
+</li>
+                                    
+<li>
+    <a href="../ShadowPracticeCodesGuide/" class="dropdown-item">Shadow Practice Codes</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Misc</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Misc/GameBuildDifferences/" class="dropdown-item">Game Build Differences</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../ShadowSX/" class="nav-link">Shadow SX</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">About</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../SiteContributors/" class="dropdown-item">Site Contributors</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../Bosses/DevilDoom/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../ShadowPracticeCodesGuide/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/ShadowSpeedrun/ShadowSpeedrun.github.io" class="nav-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#black-arms" class="nav-link">Black Arms</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#gun-army" class="nav-link">GUN Army</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#eggman-army" class="nav-link">Eggman Army</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#level-specific-and-misc" class="nav-link">Level Specific and Misc</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#bosses" class="nav-link">Bosses</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#attacks" class="nav-link">Attacks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#weapons" class="nav-link">Weapons</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<div><p>Regarding Meter Points: 30,000 points fills a meter. So when routing out a chaos power route, use these values to see when you will have a full meter or how to extend a meter.</p>
+<h2 id="black-arms">Black Arms</h2>
+<table>
+    <tr><th>Enemy</th><th>Affiliation</th><th>Health</th><th>Points (Kill)</th><th>Meter Points (Kill)</th><th>Points (Heal)</th><th>Meter Points (Heal)</th><th>Notes</th></tr>
+    <tr>
+        <td>Black Warrior</td>
+        <td style="background-color:#e06666">Dark</td>  
+        <td>4</td>
+        <td style="background-color:#9fc5e8">150</td>
+        <td style="background-color:#9fc5e8">2000</td>  
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Black Infantry w/ Shield</td>   
+        <td style="background-color:#e06666">Dark</td>  
+        <td>2</td>  
+        <td style="background-color:#9fc5e8">200</td>   
+        <td style="background-color:#9fc5e8">2000</td>  
+        <td style="background-color:#e06666">200</td>   
+        <td style="background-color:#e06666">3000</td>  
+        <td>Shield has 4 health</td>
+    </tr>
+    <tr>
+        <td>Black Wings</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>2</td>
+        <td style="background-color:#9fc5e8">100</td>
+        <td style="background-color:#9fc5e8">1000</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Sand Worm</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>6</td>
+        <td style="background-color:#9fc5e8">400</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Death Leech</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>1</td>
+        <td style="background-color:#9fc5e8">20</td>
+        <td style="background-color:#9fc5e8">400</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Black Hawk</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>6</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">2000</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Black Oak w/ Sword</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>24</td>
+        <td style="background-color:#9fc5e8">800</td>
+        <td style="background-color:#9fc5e8">4000</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Black Arms Gunship</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>40</td>
+        <td style="background-color:#9fc5e8">500</td>
+        <td style="background-color:#9fc5e8">1000</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Black Oak w/ Hammer or Big Shot Dark</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>32</td>
+        <td style="background-color:#9fc5e8">1000</td>
+        <td style="background-color:#9fc5e8">5000</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Death Worm</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>12</td>
+        <td style="background-color:#9fc5e8">400</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Black Assassin</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>16</td>
+        <td style="background-color:#9fc5e8">400</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Black Volt</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>6</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">2000</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">3000</td>
+        <td></td>
+    </tr>
+</table>
+
+<h2 id="gun-army">GUN Army</h2>
+<table>
+    <tr><th>Enemy</th><th>Affiliation</th><th>Health</th><th>Points (Kill)</th><th>Meter Points (Kill)</th><th>Points (Heal)</th><th>Meter Points (Heal)</th><th>Notes</th></tr>
+    <tr>
+        <td>GUN Beetle</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>2</td>
+        <td style="background-color:#e06666">100</td>
+        <td style="background-color:#e06666">1000</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GUN Soldier</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>2</td>
+        <td style="background-color:#e06666">150</td>
+        <td style="background-color:#e06666">3000</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GUN Soldier w/ Shield</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>2</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">3500</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td>Shield has 4 health</td>
+    </tr>
+    <tr>
+        <td>GUN Trooper</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>8</td>
+        <td style="background-color:#e06666">250</td>
+        <td style="background-color:#e06666">4000</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GUN Golden Beetle</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>4</td>
+        <td style="background-color:#e06666">1000</td>
+        <td style="background-color:#e06666">5000</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GUN Helicopter</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>10</td>
+        <td style="background-color:#e06666">500</td>
+        <td style="background-color:#e06666">5000</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GUN Giga Trooper</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>16</td>
+        <td style="background-color:#e06666">500</td>
+        <td style="background-color:#e06666">5000</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GUN Big Foot Type B</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>32</td>
+        <td style="background-color:#e06666">1000</td>
+        <td style="background-color:#e06666">6000</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ARK Missile Turret</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>16</td>
+        <td style="background-color:#e06666">100</td>
+        <td style="background-color:#e06666">1000</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GUN Big Foot Type A</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>18</td>
+        <td style="background-color:#e06666">500</td>
+        <td style="background-color:#e06666">5000</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td></td>
+    </tr>
+</table>
+
+<h2 id="eggman-army">Eggman Army</h2>
+<p>The Kill points will be Dark in Cryptic Castle, Sky Troops, or Mad Matrix, otherwise they are Hero Points.  Heal points will be the inverse of the Kill type.</p>
+<table>
+    <tr><th>Enemy</th><th>Affiliation</th><th>Health</th><th>Points (Kill)</th><th>Meter Points (Kill)</th><th>Points (Heal)</th><th>Meter Points (Heal)</th><th>Notes</th></tr>
+    <tr>
+        <td>Egg Pawn</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>4</td>
+        <td style="background-color:#93c47d">150</td>
+        <td style="background-color:#93c47d">2000</td>
+        <td style="background-color:#93c47d">200</td>
+        <td style="background-color:#93c47d">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Egg Pierrot </td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>5</td>
+        <td style="background-color:#93c47d">200</td>
+        <td style="background-color:#93c47d">2000</td>
+        <td style="background-color:#93c47d">200</td>
+        <td style="background-color:#93c47d">3000</td>
+        <td>Balancing ball has 5 health</td>
+    </tr>
+    <tr>
+        <td>Shadow Android</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>8</td>
+        <td style="background-color:#93c47d">300</td>
+        <td style="background-color:#93c47d">3000</td>
+        <td style="background-color:#93c47d">200</td>
+        <td style="background-color:#93c47d">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Egg Pawn w/ Shield</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>4</td>
+        <td style="background-color:#93c47d">200</td>
+        <td style="background-color:#93c47d">2000</td>
+        <td style="background-color:#93c47d">200</td>
+        <td style="background-color:#93c47d">3000</td>
+        <td>Shield has 4 health</td>
+    </tr>
+</table>
+
+<h2 id="level-specific-and-misc">Level Specific and Misc</h2>
+<table>
+    <tr><th>Enemy</th><th>Affiliation</th><th>Health</th><th>Points (Kill)</th><th>Meter Points (Kill)</th><th>Points (Heal)</th><th>Meter Points (Heal)</th><th>Notes</th></tr>
+    <tr>
+        <td>LH Tank</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>350</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td>Green Sheild under 150, loses shield at 50</td>
+    </tr>
+    <tr>
+        <td>Central City Big Bomb</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>10</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">1000</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Egg Cruiser</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>80</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">1000</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td>12 damage when turret is destroyed regardless of weapon</td>
+    </tr>
+    <tr>
+        <td>Sky Troops Big Cruiser</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>120</td>
+        <td style="background-color:#e06666">200</td>
+        <td style="background-color:#e06666">1000</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td>12 damage when turret is destroyed regardless of weapon</td>
+    </tr>
+    <tr>
+        <td>Air Fleet Air Craft</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>800</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td>Not showing signs of damage under 600, Weak under 400, Cannot take much more under 200</td>
+    </tr>
+    <tr>
+        <td>Iron Jungle Egg Balloon</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>400</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td>Blasistic under 300 Sheilds under 200 Two Pieces under 100</td>
+    </tr>
+    <tr>
+        <td>Ark Defense Matrix</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>50</td>
+        <td style="background-color:#e06666">100</td>
+        <td style="background-color:#e06666">1000</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Lava Shelter Generator</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>12</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GUN Computer</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>50</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Fire</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td></td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#9fc5e8">50</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ARK Researcher</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td></td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#93c47d">N/A</td>
+        <td style="background-color:#9fc5e8">100</td>
+        <td style="background-color:#9fc5e8">1000</td>
+        <td>Researcher dissappears after healed.  No difference between healing with a heal orb or with the heal cannon.</td>
+    </tr>
+    <tr>
+        <td>Arificial Chaos</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td></td>
+        <td style="background-color:#9fc5e8">40 per Mini AC</td>
+        <td style="background-color:#9fc5e8">200 Per Mini AC</td>
+        <td style="background-color:#9fc5e8">200</td>
+        <td style="background-color:#9fc5e8">3000</td>
+        <td></td>
+    </tr>
+</table>
+
+<p>For bosses points are depended on the method of applying damage. For now I wont list every option as I dont have them all, but if there’s a need for it we’ll get the data. Typically these fights are pretty straight forward though so I think they will be needed.</p>
+<h2 id="bosses">Bosses</h2>
+<table>
+    <tr><th>Enemy</th><th>Affiliation</th><th>Health</th></tr>
+    <tr>
+        <td>Black Doom</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>Sonic and Diablon</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>Egg Dealer</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>150</td>
+    </tr>
+    <tr>
+        <td>Black Bull</td>
+        <td style="background-color:#e06666">Dark</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Egg Breaker Dark</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>Egg Breaker Normal</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>Egg Breaker Hero</td>
+        <td style="background-color:#93c47d">Neutral</td>
+        <td>150</td>
+    </tr>
+    <tr>
+        <td>Heavy Dog and Blue Falcon</td>
+        <td style="background-color:#9fc5e8">Hero</td>
+        <td>140</td>
+    </tr>
+    <tr>
+        <td>Devil Doom</td>
+        <td style="background-color:#9fc5e8">Dark</td>
+        <td>200</td>
+    </tr>
+</table>
+
+<p>These tables show how much damage each attack / weapon deals to the enemies / objects.</p>
+<h2 id="attacks">Attacks</h2>
+<table>
+    <tr><th>Attacks</th><th>Damage</th></tr>
+    <tr>
+        <td>Ball Jump</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Homing Attack</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Punch</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Air Kick</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Slick Kick</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Spin Dash</td>
+        <td>2</td>
+    </tr>
+</table>
+
+<h2 id="weapons">Weapons</h2>
+<table>
+    <tr><th>Weapon</th><th>Damage</th></tr>
+    <tr>
+        <td>Survival Knife</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Black Sword</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Dark Hammer</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Egg Spear</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Env. Object</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Pistol</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>SMG</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Semi-Auto Rifle</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Heavy Machine Gun</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Gatling Gun</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Light Shot</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Flash Shot</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Ring Shot</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Heavy Shot</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Egg Gun</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Grenade Launcher</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Bazooka</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Tank Cannon</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>Black Barrel</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Big Barrel</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Egg Bazooka</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>RPG</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>4-Shot RPG</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>8-Shot RPG</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Worm Shooter</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Wide Worm Shooter</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Big Worm Shooter</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>Laser Rifle</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Splitter</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Refractor</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Vacuum Pod</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Samurai Blade</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Satellite Laser</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Vacuum Egg</td>
+        <td>Either you kill or you don’t</td>
+    </tr>
+    <tr>
+        <td>Omochao Gun</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Heal Cannon</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Shadow Rifle</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Chaos Spear (Instant)</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Chaos Spear (Charged)</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Chaos Control (Travel Hit/Damage)</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Chaos Blast</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Flame Shield</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Thowable Bomb</td>
+        <td>Deals damage per frame. Anyone caught in the explosion long enough will die.</td>
+    </tr>
+</table></div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

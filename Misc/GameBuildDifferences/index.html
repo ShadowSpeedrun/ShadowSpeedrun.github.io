@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://shadowspeedrun.com/Misc/GameBuildDifferences/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Game Build Differences - Shadow the Hedgehog Speedrunning</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/darcula.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Shadow the Hedgehog Speedrunning</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://beta.shadowspeedrun.com" class="nav-link">Leaderboards</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Getting Started</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../GettingStarted/Categories/" class="dropdown-item">Categories Explained</a>
+</li>
+                                    
+<li>
+    <a href="../../GettingStarted/SpeedrunTricks/" class="dropdown-item">Speedrun Tricks Explained</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Levels</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Levels/Westopolis/" class="dropdown-item">Westopolis</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/DigitalCircuit/" class="dropdown-item">Digital Circuit</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/GlyphicCanyon/" class="dropdown-item">Glyphic Canyon</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/LethalHighway/" class="dropdown-item">Lethal Highway</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/CrypticCastle/" class="dropdown-item">Cryptic Castle</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/PrisonIsland/" class="dropdown-item">Prison Island</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/CircusPark/" class="dropdown-item">Circus Park</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/CentralCity/" class="dropdown-item">Central City</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/TheDoom/" class="dropdown-item">The Doom</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/SkyTroops/" class="dropdown-item">Sky Troops</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/MadMatrix/" class="dropdown-item">Mad Matrix</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/DeathRuins/" class="dropdown-item">Death Ruins</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/TheARK/" class="dropdown-item">The ARK</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/AirFleet/" class="dropdown-item">Air Fleet</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/IronJungle/" class="dropdown-item">Iron Jungle</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/SpaceGadget/" class="dropdown-item">Space Gadget</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/LostImpact/" class="dropdown-item">Lost Impact</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/GUNFortress/" class="dropdown-item">GUN Fortress</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/BlackComet/" class="dropdown-item">Black Comet</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/LavaShelter/" class="dropdown-item">Lava Shelter</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/CosmicFall/" class="dropdown-item">Cosmic Fall</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/FinalHaunt/" class="dropdown-item">Final Haunt</a>
+</li>
+                                    
+<li>
+    <a href="../../Levels/TheLastWay/" class="dropdown-item">The Last Way</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bosses</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Bosses/BlackBull/" class="dropdown-item">Black Bull</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/EggBreaker/" class="dropdown-item">Egg Breaker</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/HeavyDogBlueFalcon/" class="dropdown-item">Heavy Dog / Blue Falcon</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/BlackDoom/" class="dropdown-item">Black Doom</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/SonicAndDiablon/" class="dropdown-item">Sonic and Diablon</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/EggDealer/" class="dropdown-item">Egg Dealer</a>
+</li>
+                                    
+<li>
+    <a href="../../Bosses/DevilDoom/" class="dropdown-item">Devil Doom</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Guides</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Guides/ShadowPointsGuide/" class="dropdown-item">Health, Points, and Other Values for Routing</a>
+</li>
+                                    
+<li>
+    <a href="../../Guides/ShadowPracticeCodesGuide/" class="dropdown-item">Shadow Practice Codes</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Misc</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Game Build Differences</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../ShadowSX/" class="nav-link">Shadow SX</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">About</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../SiteContributors/" class="dropdown-item">Site Contributors</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../Guides/ShadowPracticeCodesGuide/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../ShadowSX/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/ShadowSpeedrun/ShadowSpeedrun.github.io" class="nav-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#game-build-differences" class="nav-link">Game Build Differences</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<div><h1 id="game-build-differences">Game Build Differences</h1>
+<p>When a game is released and when a game is built are two different things.</p>
+<p>The game release dates per region came from <a href="www.wikipedia.org/wiki/Shadow_the_Hedgehog_(video_game)">www.wikipedia.org/wiki/Shadow_the_Hedgehog_(video_game)</a></p>
+<p>These build dates came from <a href="https://tcrf.net/Shadow_the_Hedgehog#Build_Dates">https://tcrf.net/Shadow_the_Hedgehog#Build_Dates</a></p>
+<h3 id="region-release-dates">Region Release Dates</h3>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>Release Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NA</td>
+<td>November 14, 2005</td>
+</tr>
+<tr>
+<td>PAL / EU</td>
+<td>November 18, 2005</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>December 15, 2005</td>
+</tr>
+</tbody>
+</table>
+<h3 id="game-build-dates">Game Build Dates</h3>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Build Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GameCube (US)</td>
+<td>Oct 10 2005 23:48:24</td>
+</tr>
+<tr>
+<td>PlayStation 2 (US)</td>
+<td>Oct 12 2005 14:56:41</td>
+</tr>
+<tr>
+<td>PlayStation 2 (EU)</td>
+<td>Oct 16 2005 12:09:34</td>
+</tr>
+<tr>
+<td>PlayStation 2 (JP)</td>
+<td>Oct 16 2005 12:09:34</td>
+</tr>
+<tr>
+<td>GameCube (JP)</td>
+<td>Oct 16 2005 15:45:51</td>
+</tr>
+<tr>
+<td>Xbox (US / EU / JP)</td>
+<td>Oct 16 2005 15:49:12</td>
+</tr>
+<tr>
+<td>GameCube (EU)</td>
+<td>Oct 20 2005 11:17:41</td>
+</tr>
+</tbody>
+</table>
+<p>So what we see here is that there's about a month between the final build of the games and their release.  But we also see that they were not built at the same time.  </p>
+<p>While not always the case with games, there are a handful of differences between games these builds depending on when they were built, even if they were released at the same time.</p>
+<p>For example, the versions build on Oct 16th and later have the powerful Chaos Control Glitch patched. Making the US GameCube and PS2 versions the only ones that can perform that glitch.</p>
+<p>The Oct 16th and later versions also have a few minor level object (layout) differences, extra objects are added as documented below.</p>
+<h3 id="oct-16th-layout-changes">Oct 16th Layout Changes</h3>
+<table>
+<thead>
+<tr>
+<th>Stage &amp; Type</th>
+<th>Change</th>
+<th>Layout File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Glyphic Canyon (All)</td>
+<td>Extra Killplane Collision (6) on Secret KeyDoor route</td>
+<td>stg0201/stg0201_cmn.dat</td>
+</tr>
+<tr>
+<td>Cryptic Castle (Expert)</td>
+<td>ChaosControlStop Trigger at Chao Room / Dark route</td>
+<td>stg0300/stg0300_hrd.dat</td>
+</tr>
+<tr>
+<td>The Doom (All)</td>
+<td>Bugfix/GUN Robot (170) sets RenderDist 7 -&gt; 5 to prevent it falling through floor, *possibly also "Unknown" as well</td>
+<td>stg0401/stg0401_cmn.dat</td>
+</tr>
+<tr>
+<td>Mad Matrix (Normal)</td>
+<td>Unknown</td>
+<td>stg0403/stg0403_nrm.dat</td>
+</tr>
+<tr>
+<td>Air Fleet (All)</td>
+<td>Unknown</td>
+<td>stg0501/stg0501_cmn.dat</td>
+</tr>
+<tr>
+<td>Air Fleet (Expert)</td>
+<td>ChaosControlStop Trigger x2 for blocked door / routes on Expert</td>
+<td>stg0501/stg0501_hrd.dat</td>
+</tr>
+<tr>
+<td>Iron Jungle (Expert)</td>
+<td>ChaosControlStop Trigger at RailSplit / Dark upper route</td>
+<td>stg0502/stg0502_hrd.dat</td>
+</tr>
+<tr>
+<td>Lost Impact (All)</td>
+<td>9 Extra Objects, 7 are SolidCollision Triggers, 1 Extra GUN Beetle and GUN Soldier at Checkpoint 8</td>
+<td>stg0504/stg0504_cmn.dat</td>
+</tr>
+<tr>
+<td>GUN Fortress (All)</td>
+<td>Unknown</td>
+<td>stg0600/stg0600_cmn.dat</td>
+</tr>
+<tr>
+<td>GUN Fortress (Expert)</td>
+<td>Two ChaosControlStop Triggers on upward Hero route areas</td>
+<td>stg0600/stg0600_hrd.dat</td>
+</tr>
+<tr>
+<td>Lava Shelter (Expert)</td>
+<td>ChaosControlStop Trigger on Hero route</td>
+<td>stg0602/stg0602_hrd.dat</td>
+</tr>
+<tr>
+<td>Final Haunt (Destructibles)</td>
+<td>Unknown. Note: Both have a Black Oak (Giant) which is abnormal for .ds1 files</td>
+<td>stg0604/stg0604_ds1.dat</td>
+</tr>
+<tr>
+<td>Final Haunt (Expert)</td>
+<td>4x Duplicate Black Oak (x2 on Oak # 1, x2 on Oak # 3), x3 Platform Duplicate, x3 ChaosControlStop Triggers at Dark Route Flying Sections</td>
+<td>stg0604/stg0604_hrd.dat</td>
+</tr>
+</tbody>
+</table>
+<p>The most significant changes are Final Haunt (Expert), The Doom (All), and Lost Impact (All).</p>
+<p><strong>Final Haunt</strong> contains duplicates of objects found in the cmn layout, in the hrd (expert mode) layout. There are 4 extra Black Oaks stacked into their original object and 3 extra platforms stacked into original objects. Likely these duplicate objects were a copy/paste mistake while the ChaosControlStop Triggers were added.</p>
+<p><strong>The Doom</strong> lowers the render distance of the GUN Robot with LinkID 170, located right after the 6th checkpoint in the proceeding elevator room. This is a significant change as pre-Oct 16 builds of the game have to warp away with the checkpoint and back again to get this robot to spawn for the mission The Doom Dark.</p>
+<p><strong>Lost Impact</strong> adds extra SolidCollisions to the ceiling of some rooms, preventing out of bounds ceiling jumps via spindash jump- none of which are currently used in runs anyway. Additionally, there is an extra GUN Beetle and GUN Soldier at the 8th checkpoint.</p>
+<p><strong>Other stage changes</strong> consistent primarily of adding in ChaosControlStop Triggers that act as quick bugfixes. These prevent players from going the wrong way in Expert Mode while using Chaos Control. Ex: Cryptic Castle Dark route instead of Normal route while in Expert Mode.</p>
+<p><strong>Unknown</strong> changes mean the object counts are identical across versions, but there is a checksum difference. Likely an object was tweaked: position, rotation, object parameters (which weapon an enemy holds, how they behave, etc). Alternatively, it is possible an object was swapped out entirely for another object (ex Metal box for Wood box). These specifics are not determined, it is only known the count is the same but there is a mismatch regardless.</p></div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
