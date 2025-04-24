@@ -46,8 +46,8 @@ Get to the Goal Ring, but it has been placed in a room at the final Gun Lift Sta
 
 ## Notes of Interest
 
-### Artifical Chaos Info
-The Artifical Chaos in this level can have different points and health.  This infomation will be useful for routing out the Hero Mission. With this data we can determine that each Chibi that an Artifical Chaos has gives 40 Score Points and 200 Meter Points.
+### Artificial Chaos Info
+The Artificial Chaos in this level can have different points and health.  This information will be useful for routing out the Hero Mission. With this data we can determine that each Chibi contained within an Artificial Chaos gives 40 Score Points and 200 Meter Points.
 
 |AC#|Location|AC Chibi Count|Score Points|Meter Points|
 |-|-|-|-|-|
