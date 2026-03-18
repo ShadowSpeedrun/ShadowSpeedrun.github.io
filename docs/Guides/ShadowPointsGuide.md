@@ -299,7 +299,7 @@ Level Specific and Misc
 		<td style="background-color:#93c47d">N/A</td>
 		<td style="background-color:#93c47d">N/A</td>
 		<td style="background-color:#93c47d">N/A</td>
-		<td>Green Sheild under 150, loses shield at 50</td>
+		<td>Green Shield under 150, loses shield at 50</td>
 	</tr>
 	<tr>
 		<td>Central City Big Bomb</td>
@@ -349,7 +349,7 @@ Level Specific and Misc
 		<td style="background-color:#93c47d">N/A</td>
 		<td style="background-color:#93c47d">N/A</td>
 		<td style="background-color:#93c47d">N/A</td>
-		<td>Blasistic under 300 Sheilds under 200 Two Pieces under 100</td>
+		<td>Ballistic under 300 Shields under 200 Two Pieces under 100</td>
 	</tr>
 	<tr>
 		<td>Ark Defense Matrix</td>
@@ -402,7 +402,7 @@ Level Specific and Misc
 		<td>Researcher dissappears after healed.  No difference between healing with a heal orb or with the heal cannon.</td>
 	</tr>
 	<tr>
-		<td>Arificial Chaos</td>
+		<td>Artificial Chaos</td>
 		<td style="background-color:#9fc5e8">Hero</td>
 		<td/>
 		<td style="background-color:#9fc5e8">40 per Mini AC</td>
@@ -413,7 +413,7 @@ Level Specific and Misc
 	</tr>
 </table>
 
-For bosses points are depended on the method of applying damage. For now I wont list every option as I dont have them all, but if there’s a need for it we’ll get the data. Typically these fights are pretty straight forward though so I think they will be needed.
+For bosses, points depend on the method of applying damage. For now I won't list every option as I don't have them all, but if needed we can gather get the data. Typically these fights are pretty straightforward so I think we can manage without the extra details for now.
 
 Bosses
 ------------
@@ -671,7 +671,7 @@ Weapons
 		<td>1</td>
 	</tr>
 	<tr>
-		<td>Thowable Bomb</td>
+		<td>Throwable Bomb</td>
 		<td>Deals damage per frame. Anyone caught in the explosion long enough will die.</td>
 	</tr>
 </table>
